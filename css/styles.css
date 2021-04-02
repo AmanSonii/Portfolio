@@ -673,7 +673,7 @@ footer {
     padding: 10px 20px;
 }
 #lead-down {
-    display: none;
+    /* display: none; */
 }
 .education-block h3, .education-block span {
     float: none;
