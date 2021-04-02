@@ -627,6 +627,7 @@ footer {
     position: relative;
     transform: none;
     left: auto;
+    top:35%;
     /* top: auto; */
 }
 #lead-content h1 {
