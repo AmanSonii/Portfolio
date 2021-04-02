@@ -618,7 +618,7 @@ footer {
 }
 }@media only screen and (max-width: 992px) {
     #lead {
-    height: auto;
+    /* height: auto; */
     min-height: auto;
     max-height: auto;
     padding: 100px 15px;
@@ -627,7 +627,7 @@ footer {
     position: relative;
     transform: none;
     left: auto;
-    top: auto;
+    /* top: auto; */
 }
 #lead-content h1 {
     font-size: 3em;
