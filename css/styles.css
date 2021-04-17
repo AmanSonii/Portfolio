@@ -167,6 +167,8 @@ footer {
     color: #3498db;
 }
 .btn-rounded-white {
+    animation: pulsate 4s ease;
+    animation-iteration-count: infinite;
     display: inline-block;
     color: #fff;
     padding: 15px 25px;
@@ -272,6 +274,7 @@ footer {
     border: 3px solid #a0cfee;
     text-align: center;
 }
+/* Aman */
 #lead-down i {
     animation: pulsate 1.5s ease;
     animation-iteration-count: infinite;
@@ -450,13 +453,13 @@ footer {
     border-radius: 4px;
 }
 .project-image {
-    float: left;
+    /* float: left; */
 }
 .project-info {
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 300px;
+    margin-left: 300px; */
     padding: 15px;
 }
 .project-info h3 {
