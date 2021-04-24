@@ -10,7 +10,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
     <link href="libs/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
@@ -45,11 +45,12 @@
     </header>
     <!-- End header -->
 
-    <div id="lead">
+    <div id="lead" class="delay-03s animated fadeInDown wow animated">
         <div id="lead-content">
             <h1>Aman Soni</h1>
             <h2 id="description">Software Engineer</h2>
-            <a href="Aman Soni Resume.pdf" class="btn-rounded-white" target="_blank" download="Aman Soni Resume.pdf">Download Resume</a>
+            <a href="Aman Soni Resume.pdf" class="btn-rounded-white" target="_blank"
+                download="Aman Soni Resume.pdf">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -64,7 +65,7 @@
     </div>
     <!-- End #lead -->
 
-    <div id="about">
+    <div id="about" class="delay-03s animated fadeInDown wow animated">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -72,9 +73,11 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Hello World, this is Aman Soni. I am a Software Developer by passion and fortunately it is my profession too. Apart from writing computer code I also like to
-                        motivate people by my <a target="_blank" href="https://amarpit.blogspot.com/">poems</a> & 
-                        <a href="https://www.yourquote.in/aman-soni-jz7j/quotes" rel="search" target="_blank">quotes</a>.
+                        Hello World, this is Aman Soni. I am a Software Developer by passion and fortunately it is my
+                        profession too. Apart from writing computer code I also like to
+                        motivate people by my <a target="_blank" href="https://amarpit.blogspot.com/">poems</a> &
+                        <a href="https://www.yourquote.in/aman-soni-jz7j/quotes" rel="search"
+                            target="_blank">quotes</a>.
                     </p>
                 </div>
             </div>
@@ -82,33 +85,34 @@
     </div>
     <!-- End #about -->
 
-    <div id="experience" class="background-alt">
+    <div id="experience" class="background-alt delay-03s animated fadeInDown wow animated">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            
-                <div data-date="October 2019 – Till Now">
-                    <h3>47Billion</h3>
-                    <h4>Software Developer</h4>
-                    <p>
-                        I am working as Full Stack Developer and have worked on various projects of Health Care domain.
-                    </p>
-                </div>
-            
-                <div data-date="August 2018 – September 2019">
-                    <h3>Empower Solutions</h3>
-                    <h4>Assistant Software Engineer</h4>
-                    <p>
-                        This is the place where I started my journey and here I worked on scrapping with ASP.Net MVC 4.5 and worked on angular too.
-                    </p>
-                </div>
-            </div>
-            
 
-           
+            <div data-date="October 2019 – Till Now">
+                <h3>47Billion</h3>
+                <h4>Software Developer</h4>
+                <p>
+                    I am working as Full Stack Developer and have worked on various projects.
+                </p>
+            </div>
+
+            <div data-date="August 2018 – September 2019">
+                <h3>Empower Solutions</h3>
+                <h4>Assistant Software Engineer</h4>
+                <p>
+                    This is the place where I started my journey and here I worked on scrapping with ASP.Net MVC 4.5 and
+                    worked on angular too.
+                </p>
+            </div>
         </div>
+
+
+
     </div>
-    
-    <div id="projects" class="background-alt">
+    </div>
+
+    <div id="projects" class="background-alt delay-03s animated fadeInDown wow animated">
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
@@ -121,8 +125,8 @@
                         <h3>eICare</h3>
                         <p>
                             It is an end-to-end solution for effective care coordination including Reports
- Creation, e-Scripts, Intake & Assessments, Appointment Scheduling, Progress Notes,
- Video calling and, many more.
+                            Creation, e-Scripts, Intake & Assessments, Appointment Scheduling, Progress Notes,
+                            Video calling and, many more.
                         </p>
                         <a href="https://eicare.housingworks.org/Security/Login">View Project</a>
                     </div>
@@ -139,9 +143,25 @@
                         <h3>Auction Housing Works</h3>
                         <p>
                             It is an e-commerce website including Auction for products, Payment processing,
- Invoice creation, Admin dashboard, IP blockage, Jobs scheduling, and many more.
+                            Invoice creation, Admin dashboard, IP blockage, Jobs scheduling, and many more.
                         </p>
                         <a href="https://auction.housingworks.org/">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <!-- <img src="images/auctionhousingworks.png" /> -->
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>LSK Feedback</h3>
+                        <p>
+                            It is a portal where various users can provide feedback to the respective shop, office or any 
+                            service and then that data is used for analysis for quality improvement.
+                        </p>
+                        <a href="http://35.186.154.17:8084/">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -150,65 +170,99 @@
         </div>
     </div>
     <!-- End #projects -->
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>ASP.NET MVC</li>
-            <li>ASP.NET Core</li>
-            <li>SQL Server</li>
-            <li>MongoDB</li>
-            <li>Azure</li>
-            <li>C#</li>
-            <li>Java</li>
-            <li>AngularJs</li>
-            <li>React js</li>
-            <li>Node.js</li>          
-            <li>JavaScript</li>
-            <li>HTML</li>
-            <li>MongoDB</li>
-        </ul>
+    <div class="delay-03s animated fadeInDown wow animated">
+        <div id="skills">
+            <h2 class="heading">Skills</h2>
+            <ul>
+                <li>ASP.NET MVC</li>
+                <li>ASP.NET Core</li>
+                <li>SQL Server</li>
+                <li>MongoDB</li>
+                <li>Azure</li>
+                <li>C#</li>
+                <li>Java</li>
+                <li>AngularJs</li>
+                <li>React js</li>
+                <li>Node.js</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>MongoDB</li>
+            </ul>
+        </div>
     </div>
     <!-- End #skills -->
-
+    <dvi class="delay-03s animated fadeInDown wow animated">
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
+            <form>
+                <a style="display: none;" id='emailLink' href=""> </a>
+                <input type="text" id="subject" name="_subject" placeholder="Email Subject" required>
+                <textarea id="message" name="message" placeholder="Email Body" required></textarea>
+                <button type="button" onclick="sendEmail()">Send</button>
             </form>
         </div>
         <!-- End #contact-form -->
     </div>
+</div>
     <!-- End #contact -->
 
     <footer>
-        <div class="container">
+        <div class="row">
+            <div class="col-sm-3"></div>
+           <div class="col-sm-7">
+               <div class="col-sm-4">
+
+               </div>
+               <div class="col-sm-8">
+                <h2 class="heading">Meet Me</h2>
+               </div>
+            
+           </div>
+            
+        </div>
+        <div class="container delay-03s animated fadeInDown wow animated">
             <div class="row">
                 <div class="col-sm-2 top">
                     <span id="to-top">
                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
                     </span>
                 </div>
-                <div class="col-sm-5 social">
+                
+                <div class="col-sm-6 social">
+                   
                     <ul>
                         <li>
-                            <a href="https://github.com/AmanSonii" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/AmanSonii" target="_blank"><i class="fa fa-github"
+                                    aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/users/8369667/aman-soni" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                            <a href="https://stackoverflow.com/users/8369667/aman-soni" target="_blank"><i
+                                    class="fa fa-stack-overflow" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/amansoni-" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/amansoni-" target="_blank"><i class="fa fa-linkedin"
+                                    aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/people/Aman-Soni/100011430441219" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/people/Aman-Soni/100011430441219" target="_blank"><i
+                                    class="fa fa-facebook" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/AmanSoni__" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/AmanSoni__" target="_blank"><i class="fa fa-twitter"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.c-sharpcorner.com/members/aman-soni3" target="_blank"><img src="images/csharpcorner.png"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.yourquote.in/aman-soni-jz7j/quotes" target="_blank"><img src="images/yourquote.png" style="height: 20px; width:20px;"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://aman-soni.medium.com/" target="_blank"><img src="images/medium.png" style="height: 20px; width:20px;"
+                                    aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -217,8 +271,13 @@
     </footer>
     <!-- End footer -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
     <script src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nav.js"></script>
+    <script type="text/javascript" src="js/wow.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
 </body>
 
 </html>

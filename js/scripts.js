@@ -128,3 +128,12 @@ document.addEventListener('DOMContentLoaded', function (event) {
     });
 
 })(jQuery);
+
+function sendEmail(){
+    debugger;
+    let subject = $('#subject').val();
+    let body = $('#message').val();
+    $("#emailLink").attr("href", "mailto:amansoni887127@gmail.com?subject=" + subject + "&body=" + body);
+     $("#emailLink")[0].click();
+
+}
