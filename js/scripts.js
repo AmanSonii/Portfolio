@@ -138,7 +138,7 @@ $(document).ready(function () {
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
      }
      xmlhttp.open("GET", "https://github.com/AmanSonii/Portfolio/blob/master/users.xml", false);
-     httpReq.setRequestHeader('Access-Control-Allow-Headers', 'https://amansonii.github.io');
+     xmlhttp.setRequestHeader('Access-Control-Allow-Headers', 'https://amansonii.github.io');
      xmlhttp.setRequestHeader( 'Access-Control-Allow-Origin', 'https://amansonii.github.io');
      xmlhttp.send();
      xmlDoc = xmlhttp.responseXML;
