@@ -129,39 +129,39 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
 })(jQuery);
 
-$(document).ready(function () {
-    var xmlDoc;
-    debugger;
-    if (window.XMLHttpRequest) {
-        xmlhttp = new XMLHttpRequest();
-     } else {
-        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-     }
-     xmlhttp.open("GET", "https://github.com/AmanSonii/Portfolio/blob/master/users.xml", false);
-     xmlhttp.setRequestHeader('Access-Control-Allow-Headers', 'https://amansonii.github.io');
-     xmlhttp.setRequestHeader( 'Access-Control-Allow-Origin', 'https://amansonii.github.io');
-     xmlhttp.send();
-     xmlDoc = xmlhttp.responseXML;
-    // if (typeof window.DOMParser != "undefined") {
-    //     xmlhttp = new XMLHttpRequest();
-    //     xmlhttp.open("GET", 'users.xml', false);
-    //     if (xmlhttp.overrideMimeType) {
-    //         xmlhttp.overrideMimeType('text/xml');
-    //     }
-    //     xmlhttp.send();
-    //     xmlDoc = xmlhttp.responseXML;
-    // }
-    // else {
-    //     xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
-    //     xmlDoc.async = "false";
-    //     xmlDoc.load('users.xml');
-    // }
-    // var tagObj = xmlDoc.getElementsByTagName("marker");
-    // var typeValue = tagObj[0].getElementsByTagName("type")[0].childNodes[0].nodeValue;
-    // var titleValue = tagObj[0].getElementsByTagName("title")[0].childNodes[0].nodeValue;
-}
+// $(document).ready(function () {
+//     var xmlDoc;
+//     debugger;
+//     if (window.XMLHttpRequest) {
+//         xmlhttp = new XMLHttpRequest();
+//      } else {
+//         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+//      }
+//      xmlhttp.open("GET", "https://github.com/AmanSonii/Portfolio/blob/master/users.xml", false);
+//      xmlhttp.setRequestHeader('Access-Control-Allow-Headers', 'https://amansonii.github.io');
+//      xmlhttp.setRequestHeader( 'Access-Control-Allow-Origin', 'https://amansonii.github.io');
+//      xmlhttp.send();
+//      xmlDoc = xmlhttp.responseXML;
+//     // if (typeof window.DOMParser != "undefined") {
+//     //     xmlhttp = new XMLHttpRequest();
+//     //     xmlhttp.open("GET", 'users.xml', false);
+//     //     if (xmlhttp.overrideMimeType) {
+//     //         xmlhttp.overrideMimeType('text/xml');
+//     //     }
+//     //     xmlhttp.send();
+//     //     xmlDoc = xmlhttp.responseXML;
+//     // }
+//     // else {
+//     //     xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+//     //     xmlDoc.async = "false";
+//     //     xmlDoc.load('users.xml');
+//     // }
+//     // var tagObj = xmlDoc.getElementsByTagName("marker");
+//     // var typeValue = tagObj[0].getElementsByTagName("type")[0].childNodes[0].nodeValue;
+//     // var titleValue = tagObj[0].getElementsByTagName("title")[0].childNodes[0].nodeValue;
+// }
 
-)
+// )
 
 function sendEmail() {
     debugger;
